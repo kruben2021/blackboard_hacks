@@ -7,7 +7,7 @@ a[href*="javascript:markReviewed"] {
 }
 
 a[href*="javascript:markReviewed"]::after {
-    content: "! Click here to confirm your agreement."; 
+    content: "Click here to confirm your agreement."; 
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
@@ -29,7 +29,7 @@ a[href*="javascript:markUnreviewed"] {
 }
 
 a[href*="javascript:markUnreviewed"]::after {
-    content: "✓ I agree." !important;
+    content: "✓ I agree" !important;
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
