@@ -7,20 +7,21 @@ a[href*="javascript:markReviewed"] {
 }
 
 a[href*="javascript:markReviewed"]::after {
-    content: "Click here to confirm your agreement."; 
+    content: "Review status: In progress..."; 
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: Arial;
-    color: #4B515D;
+    color: #000000;
     font-size: 16px;
-    background: #ffbb33;
+    background: url(incomplete.svg) no-repeat 0px 0px;
     padding: 15px 20px 15px 20px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    text-indent: 40px;
     float: left;
 }
 
@@ -29,19 +30,20 @@ a[href*="javascript:markUnreviewed"] {
 }
 
 a[href*="javascript:markUnreviewed"]::after {
-    content: "✓ I agree" !important;
+    content: "Review status: Task completed" !important;
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: Arial;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
-    background: #2BBBAD;
+    background: url(complete.svg) no-repeat 0px 0px;
     padding: 15px 20px 15px 20px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    text-indent: 40px;
     float: left;
 }
