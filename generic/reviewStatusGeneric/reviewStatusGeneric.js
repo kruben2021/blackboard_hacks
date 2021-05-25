@@ -2,7 +2,7 @@
     /* Insert CSS to style search input */
     var link = document.createElement("link");
     link.setAttribute("rel", "stylesheet");
-    link.setAttribute("href", "cput-ict-department.github.io/blackboard_hacks/generic/reviewStatusGeneric/reviewStatusGeneric.css");
+    link.setAttribute("href", "github.com/ict-applications-development/blackboard_hacks/generic/reviewStatusGeneric/reviewStatusGeneric.css");
     var head = document.getElementsByTagName("head") [0];
     head.appendChild(link);
     /* Insert Font Awesome for search icon */
